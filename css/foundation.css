@@ -8182,3 +8182,15 @@ body {
     background: lightseagreen;
   }
 }
+/*****Buttons*****/
+.button {
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 10px;
+  
+} 
+.cell.button.large{
+  margin-bottom: 10px;
+  text-align: center;
+  padding-left: 20px;
+}

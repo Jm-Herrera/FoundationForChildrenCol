@@ -8278,10 +8278,14 @@ footer{margin-top: 2em;}
   background-color: #ce2028;
 }
 
+/*****Buttons*****/
+.button {
+  border-radius: 50px;
+}
 
 /*****Carusel******/
 
-$white: #fefefe;
+/**$white: #fefefe;**/
 
 /* Demo Styles */
 body {
