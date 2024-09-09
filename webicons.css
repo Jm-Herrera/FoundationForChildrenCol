@@ -25,14 +25,14 @@
   height: 20px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  border-radius: 3px; }
+  border-radius: 25px; }
 
 .webicon.large {
   width: 48px;
   height: 48px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
-  border-radius: 6px; }
+  border-radius: 25px; }
 
 /* restore webicons accessibility for print */
 @media print {
@@ -953,3 +953,27 @@
 
 .svg .webicon.zerply {
   background: url("webicons/webicon-zerply.svg"); }
+
+.no-svg .webicon.whatsapp {
+  background: url("webicons/webicon-whatsapp-m.png"); }
+  
+.no-svg .webicon.whatsapp.large {
+  background: url("webicons/webicon-whatsapp.png"); }
+  
+.no-svg .webicon.whatsapp.small {
+  background: url("webicons/webicon-whatsapp-s.png"); }
+  
+.svg .webicon.whatsapp {
+  background: url("webicons/webicon-whatsapp.svg"); }
+
+.no-svg .webicon.signal {
+  background: url("webicons/webicon-signal-m.png"); }
+    
+.no-svg .webicon.signal.large {
+  background: url("webicons/webicon-signal.png"); }
+    
+.no-svg .webicon.signal.small {
+  background: url("webicons/webicon-signal-s.png"); }
+    
+.svg .webicon.signal {
+  background: url("webicons/webicon-signal.svg"); }  
