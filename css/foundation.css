@@ -2930,6 +2930,7 @@ h6, .h6 {
   font-style: normal;
   font-weight: normal;
   color: #f4eade;
+  text-align: center;
   text-rendering: optimizeLegibility;
 }
 h1 small, .h1 small,
@@ -3011,7 +3012,7 @@ a {
   cursor: pointer;
 }
 a:hover, a:focus {
-  color: #2988bc;
+  color: #f1a208;
 }
 a img {
   border: 0;
@@ -3924,7 +3925,7 @@ select:not([multiple]) {
   border-width: 6px;
   content: "";
   border-bottom-width: 0;
-  border-color: #1779ba transparent transparent;
+  border-color: #d9dcd6 transparent transparent;
   position: absolute;
   top: 50%;
   margin-top: -3px;
@@ -5896,7 +5897,9 @@ select:not([multiple]) {
 
 .orbit-slide {
   width: 100%;
+  padding: 0 50px;
   position: absolute;
+  
 }
 .orbit-slide.no-motionui.is-active {
   top: 0;
@@ -5909,18 +5912,17 @@ select:not([multiple]) {
 
 .orbit-image {
   width: 100%;
-  max-width: 100%;
+  
+  /*max-width: 90%;*/
   margin: 0;
 }
 
 
 
 .orbit-caption {
-  position: absolute;
+  position:absolute;
   bottom: 0;
-  width: 100%;
-  margin-bottom: 0;
-  padding: 1rem;
+  width: auto;
   background-color: rgba(10, 10, 10, 0.5);
   text-align: center;
   font-family: salsa, cursive;
@@ -8061,9 +8063,14 @@ header img{
 header h1{
   font-size: 2.2em;
   padding-top: 100px;
-  text-align:center; 
-  
+  text-align:center;   
 }
+
+main{
+  background-color: #2988bc;
+  padding: 25px;
+}
+
 
 /*Project Ids*/
 
