@@ -8103,6 +8103,29 @@ main{
 
 footer{margin-top: 2em;}
 
+
+
+.sprite{
+  cursor: pointer;
+  width: 150px;   /* Width of each icon */
+  height: 115px;  /* Height of each icon */
+  display: inline-block;
+  background-size:cover;
+  background: url(../images/donate-sprite.png) no-repeat;
+}
+
+.icon-donate{
+  background-position: 0 0;
+}
+
+.icon-donate:hover{
+  background-position: 0 -115px;
+}
+
+.icon-donate:active{
+  background-position: 0 -250px;
+}
+
 .position_item{
   text-align: center;
 }
