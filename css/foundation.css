@@ -241,7 +241,7 @@ body {
 img {
   display: inline-block;
   vertical-align: middle;
-  max-width: 100%;
+  /*max-width: 100%;*/
   height: auto;
   -ms-interpolation-mode: bicubic;
 }
@@ -357,7 +357,7 @@ textarea {
           flex: 0 0 auto;
   min-height: 0;
   min-width: 0;
-  width: 100%;
+  width: auto;
 }
 .cell.auto {
   -webkit-box-flex: 1;
@@ -8071,6 +8071,13 @@ main{
   padding: 25px;
 }
 
+nav li{
+  margin: 10px 0;
+  padding: 10px 0;
+  border-radius: 50%;
+
+}
+
 
 /*Project Ids*/
 
@@ -8128,6 +8135,10 @@ footer{margin-top: 2em;}
 
 .position_item{
   text-align: center;
+}
+
+.wings{
+  width: 130px;
 }
 
 /*Fonts*/
