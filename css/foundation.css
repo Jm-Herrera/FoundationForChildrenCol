@@ -226,7 +226,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  /*padding: 0;*/
   background: #2F496E;
   /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
   font-family: "Farsan", cursive;
@@ -8056,8 +8056,7 @@ a.thumbnail image {
 /***************PROJECT CSS STYLE START***************/
 
 header img{
-  width: 500px;
-  padding: 15px;
+  width: 350px;
 }
 
 header h1{
@@ -8209,9 +8208,9 @@ footer{margin-top: 2em;}
 /*****Carusel******/
 
 /* Demo Styles */
-body {
+/*body {
   padding: 2rem 1rem;
-}
+}*/
 
 .docs-example-orbit-slide {
   padding: 2rem 4rem;
