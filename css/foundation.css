@@ -3286,7 +3286,7 @@ ul.no-bullet, ol.no-bullet {
   margin: 0 0 1rem 0;
   padding: 0.85em 1em;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 12px;
   -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
@@ -8069,6 +8069,11 @@ header h1{
 main{
   background-color: #2988bc;
   padding: 25px;
+  border-radius: 12px;
+}
+
+nav{
+  margin-top: 100px;
 }
 
 nav li{
@@ -8139,6 +8144,11 @@ footer{margin-top: 2em;}
 
 .wings{
   width: 130px;
+}
+
+.buttton {
+  border-radius: 12px;
+  position: fixed;
 }
 
 /*Fonts*/
