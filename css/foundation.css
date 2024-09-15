@@ -83,6 +83,7 @@ sup {
 
 img {
   border-style: none;
+  border-radius: 10px;
 }
 
 button,
@@ -241,8 +242,8 @@ body {
 img {
   display: inline-block;
   vertical-align: middle;
-  /*max-width: 100%;*/
-  height: auto;
+  /*max-width: 100%;
+  height: auto;*/
   -ms-interpolation-mode: bicubic;
 }
 
@@ -8069,6 +8070,7 @@ main{
   background-color: #2988bc;
   padding: 25px;
   border-radius: 12px;
+  margin: 0 15px;
 }
 
 nav{
@@ -8080,6 +8082,15 @@ nav li{
   padding: 10px 0;
   border-radius: 50%;
 
+}
+
+video{
+  flex: 1; /* Make all video links take equal space */
+  text-align: center; /* Center-align text */
+  border-radius: 10px;
+  width: 100px;
+  height: 200px;
+  margin: 5px 10px;
 }
 
 
@@ -8148,6 +8159,12 @@ footer{margin-top: 2em;}
 .buttton {
   border-radius: 12px;
   position: fixed;
+}
+
+.gallery{
+  width: 100px;
+  height: 200px;
+  margin: 10px 10px;
 }
 
 /*Fonts*/
