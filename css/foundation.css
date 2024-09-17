@@ -8205,6 +8205,43 @@ footer{margin-top: 2em;}
   font-size: x-large;
 }
 
+
+.circle{
+	display: inline-block;
+	margin:  0;
+	width: 250px;
+	height: 250px;
+	background-color: #f4eade;
+	text-align: center;
+	text-decoration: none;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.square{
+	display: inline-block;
+	margin:  0 30px;
+  width: 250px;
+	height: 250px;
+	background-color: #f4eade;
+	text-align: center;
+	text-decoration: none;
+  border-radius: 5%;
+  padding: 8px;
+}
+
+.into_circle{
+  color: #f4eade;
+  margin-top: -160px;
+  margin-left: 48px;
+  margin-bottom: 210px;
+  font-size: 1.4em;
+  
+}
+
+
+	
+
 /***************PROJECT CSS STYLE END***************/
 
 /*Dropdown*/
