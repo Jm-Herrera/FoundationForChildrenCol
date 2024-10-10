@@ -91,6 +91,49 @@
               </div>
             
           </div>
+          <br>
+          <h3>Any question ?</h3>
+          <br>
+          <h4>You can leave a message using the contact form below. We will get back to you as soon as possible.</h4>
+
+            <form method="post" action="mailito:contactus@artforchildrencolombia.org" enctype="text/plain">
+              <fieldset>
+                <div class="grid-x grid-padding-x">
+                  <div class="medium-6 cell">
+                    <input type="text" name="fname" id="fname" placeholder="First Name" maxlength="256" required>
+                  </div>
+                  <div class="medium-6 cell">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" maxlength="256" required>
+                  </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                  <div class="medium-6 cell">
+                    <input type="email" name="email" id="email" placeholder="Email" maxlength="256" required>
+                  </div>
+                  <div class="medium-6 cell">
+                    <input type="tel" name="telephone" id="telephone" placeholder="Telephone" maxlength="256" required>
+                  </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                  <div class="auto cell">
+                    <textarea name="message" id="message" maxlength="1500" placeholder="Your Message" rows="5" required></textarea>
+                  </div>
+                </div> 
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="auto cell">
+                    <input type="submit" value="Send" class="button large salsa-font">
+                    <input type="reset" class="button large salsa-font">
+                  </div>
+                </div>
+              </fieldset>
+                              
+              <div class="grid-x grid-padding-x align-center">
+                <div class="auto cell">
+                  <p>We will contact you shortly</p>
+                </div>
+              </div>                
+            </form>
+
         </div>
       </div>
     </main>
