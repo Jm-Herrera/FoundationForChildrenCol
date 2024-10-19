@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# Redirigir HTTP a HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Excepción para el archivo send_email.php
+RewriteCond %{REQUEST_URI} !^/send_email\.php$ [NC]
+
+# Redirección a subdirectorio /en
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^artforchildrencolombia.org$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.artforchildrencolombia.org$
+RewriteCond %{REQUEST_URI} !en/
+RewriteRule ^(.*)$ /en/$1 [L] 
+
+# Permitir solicitudes POST sin redirección
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule .* - [L]
