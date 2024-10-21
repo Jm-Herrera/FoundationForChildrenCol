@@ -8070,7 +8070,7 @@ a.thumbnail image {
 
 footer{margin-top: 2em;}
 header{
-  margin: 10px;
+  margin: 0px;
 }
 
 header div{
@@ -8079,7 +8079,7 @@ header div{
   justify-content: space-around;
   padding: 5px;
   text-align: center;
-  margin: 10px auto;
+  margin: 0px auto;
 }
 
 header img{
@@ -8381,23 +8381,36 @@ video{
 *        Responsive Configuration          *
 ********************************************/
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   /* Estilos para pantallas pequeñas (móviles).
      Pantallas pequeñas: Teléfonos en modo vertical, 
      como el iPhone SE, teléfonos Android compactos.
     Ancho de pantalla: Generalmente entre 320px y 480px. */
-    
-    
+    header img{
+      width: 35%;
+    }    
+
+    header h1{
+    font-size: 0.8em;
+    }
+
+    .wings{
+      content: url(../images/divition_section.png);
+      width: auto;      
+    }
+    nav{
+      margin-top: 0px;      
+    }    
 }
 
 
-@media screen and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
   /* Estilos para móviles medianos y grandes.
      Pantallas de tamaño mediano: Teléfonos en modo vertical
      como iPhone 12, 13, Galaxy S20, S21, y otros modelos modernos.
      Ancho de pantalla: Entre 481px y 767px. */
 
-     header img{
+    header img{
       width: 50%;
     }    
 
@@ -8405,33 +8418,42 @@ video{
     font-size: 1em;
     }
     
-    
+    .wings{
+      content: url(../images/divition_section.png);
+      width: auto;      
+    }
 
+    nav{
+      margin-top: 0px;      
+    }    
 }
 
 
-@media screen and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   /* Estilos para tablets.
      Pantallas de tamaño mediano a grande: 
      iPads, tablets Android, Surface en modo tablet.
      Ancho de pantalla: Entre 768px y 1024px. */
 
-     header img{
+    header img{
       width: 60%;
     }    
 
     header h1{
     font-size: 1.2em;
     }
-     .wings{
+    .wings{
       content: url(../images/divition_section.png);
       width: auto;      
     }
-     
+
+    nav{
+      margin-top: 0px;      
+    }    
 
 }
 
-@media screen and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   /* Estilos para computadoras portátiles pequeñas.
      Pantallas de tamaño mediano a grande: 
      Laptops pequeñas, MacBooks, Chromebooks.
@@ -8439,7 +8461,7 @@ video{
      
 }
 
-@media screen and (min-width: 1281px) {
+@media (min-width: 1281px) {
     /* Estilos para computadoras de escritorio grandes.
        Pantallas grandes: Monitores de escritorio, 
        pantallas ultrawide, computadoras de gama alta.
