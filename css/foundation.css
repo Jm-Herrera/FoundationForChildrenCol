@@ -3049,7 +3049,7 @@ ol {
 }
 
 ul ul, ul ol, ol ul, ol ol {
-  margin-left: 1.25rem;
+  margin-left: 0rem;
   margin-bottom: 0;
 }
 
@@ -4469,7 +4469,8 @@ select:not([multiple]) {
 
 .menu {
   padding: 0;
-  margin: 0 auto;
+  /*margin: 0 auto;
+  */
   list-style: none;
   /*position:static;*/
   display: -webkit-box;
@@ -5017,7 +5018,7 @@ select:not([multiple]) {
   outline: 0;
 }
 .dropdown.menu > li > a {
-  padding: 0.7rem 1rem;
+  padding: 0rem 0rem;
 }
 .dropdown.menu > li.is-active > a {
   background: transparent;
@@ -8115,7 +8116,7 @@ main p{
 }
 
 nav{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -8174,6 +8175,14 @@ video{
 .map_city{
   width: 700px;
   height: 400px;
+}
+
+.second-nav{
+  display:initial;
+}
+
+.thirh-nav{
+  display:none;
 }
 
 .sprite{
@@ -8371,6 +8380,17 @@ video{
   padding-left: 100px;
   list-style-position: inside;
 }
+.red-heart{
+  width: 60px;
+}
+
+.red-heart:hover{
+  width: 80px;
+}
+
+.round-flag{
+  width: 40px
+}
 
 .wings{
   content: url(../images/wings.png);
@@ -8400,7 +8420,17 @@ video{
     }
     nav{
       margin-top: 0px;      
-    }    
+    }   
+    
+    .second-nav{
+      display:none ;
+    }
+
+    .thirh-nav{
+      display:initial ;
+      height: 80px;
+    }
+    
 }
 
 
@@ -8425,7 +8455,15 @@ video{
 
     nav{
       margin-top: 0px;      
-    }    
+    }  
+    
+    .second-nav{
+      display:none ;
+    }
+
+    .thirh-nav{
+      display:initial ;
+    }
 }
 
 
@@ -8449,7 +8487,15 @@ video{
 
     nav{
       margin-top: 0px;      
-    }    
+    } 
+    
+    .second-nav{
+      display:none ;
+    }
+
+    .thirh-nav{
+      display:initial ;
+    }
 
 }
 
@@ -8458,6 +8504,13 @@ video{
      Pantallas de tamaño mediano a grande: 
      Laptops pequeñas, MacBooks, Chromebooks.
      Ancho de pantalla: Entre 1025px y 1280px.  */
+     .second-nav{
+      display:flex ;
+    }
+
+    .thirh-nav{
+      display:none ;
+    }
      
 }
 
@@ -8466,7 +8519,13 @@ video{
        Pantallas grandes: Monitores de escritorio, 
        pantallas ultrawide, computadoras de gama alta.
        Ancho de pantalla: 1281px o más.*/
+       .second-nav{
+        display:flex ;
+      }
 
+      .thirh-nav{
+        display:none ;
+      }
 }
 
 
