@@ -8156,6 +8156,7 @@ video{
 
 
 .foot_position_center{
+  text-align: center;
   padding: 50px 0; 
 }
 
@@ -8169,8 +8170,6 @@ video{
 .div_margin_bottom{
   margin-bottom: 10px; 
 }
-
-
 
 .map_city{
   width: 700px;
@@ -8204,10 +8203,6 @@ video{
 
 .icon-donate:active{
   background-position: 0 -250px;
-}
-
-.position_item{
-  text-align: center;
 }
 
 .buttton {
@@ -8380,6 +8375,15 @@ video{
   padding-left: 100px;
   list-style-position: inside;
 }
+
+.qr-code{
+  border: 2px #ff8c42;
+  border-style:solid;
+  border-radius: 15px;
+  padding: 5px;
+  width: 170px;
+}
+
 .red-heart{
   width: 60px;
 }
