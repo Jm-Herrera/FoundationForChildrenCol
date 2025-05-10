@@ -8363,7 +8363,7 @@ video{
 }
 
 .overlay-text-circule {
-  color: #ff8c42;
+  color: #d9dcd6;
   top: 50%;
   left: 27%;
   font-size: 1.3em;         
@@ -8481,8 +8481,8 @@ video{
     }   
 
     .overlay-text-circule{
-      font-size: 0.8em; 
-      left: 18%;       
+      font-size: 0.7em; 
+      left: 20%;       
     }
 
 
